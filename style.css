@@ -36,7 +36,12 @@ ul{
     
 }
 
+li a{
+    color: #000;
 
+
+
+}
 li a:hover{
     color: #fff;
     transition: .2s;
@@ -116,14 +121,13 @@ li:nth-of-type(5):hover{
 
 .banner{
     width: 80%;
-    margin: -5.6em 10% 0;
-
+    margin: -35.8em 10% 0;
 
 }
 
 .titulo-banner{
     font-family: 'Anton';
-    position: absolute;
+    position: relative;
     font-size: 6em;
     letter-spacing: 1px;
     margin: .5em 0 0 1.5em;
