@@ -39,7 +39,7 @@ header{
 .background-logo{
     width: 40em;
     height: 8.6em;
-    background-color: #000;
+    background-color: #aaa;
     position: absolute;
     z-index: -5;
     margin-top: -5.4em;
@@ -66,7 +66,7 @@ li a:hover{
 
 }
 
-li{
+.menu li{
     padding: 2em;
     cursor: pointer;
     margin: 0 2em 0 0;
@@ -75,42 +75,20 @@ li{
 
 }
 
-li:hover{
+.menu li:hover{
     border-radius: 1.5em .8em;
     color: #fff;
 
 
 }
 
-li:nth-of-type(1):hover{
+.menu li:hover{
     background-color: rgb(243, 0, 0);
     transition: .5s;
 
 }
 
-li:nth-of-type(2):hover{
-    background-color: rgb(243, 0, 0);
-    transition: .5s;
 
-}
-
-li:nth-of-type(3):hover{
-    background-color: rgb(243, 0, 0);
-    transition: .5s;
-
-}
-
-li:nth-of-type(4):hover{
-    background-color: rgb(243, 0, 0);
-    transition: .5s;
-
-}
-
-li:nth-of-type(5):hover{
-    background-color: rgb(243, 0, 0);
-    transition: .5s;
-
-}
 
 .ingressos{
     padding: 2em 3em;
@@ -150,7 +128,7 @@ li:nth-of-type(5):hover{
     font-size: 6em;
     letter-spacing: 1px;
     margin: .5em 0 0 1.5em;
-    color: rgb(24, 24, 24);
+    color: rgba(188, 90, 207, 0.877);
     text-shadow: 5px 5px #fff;
 
 }
@@ -345,12 +323,14 @@ li:nth-of-type(5):hover{
 }
 
 .info_container{
-    top: -10em;
+    top: 11.5em;
     display: flex;
     margin: 20%;
     position: relative;
     padding: 1em;
     font-family: Arial, Helvetica, sans-serif;
+    
+
 
 
 }
@@ -361,36 +341,40 @@ li:nth-of-type(5):hover{
     background-image: linear-gradient(rgb(251, 133, 255),rgb(247, 112, 213), rgb(255, 255, 255));
     position: absolute;
 
+
 }
 
 .info-1{
-    width: 30em;
-    height: 30em;
+    width: 40em;
+    height: 40em;
     text-align: center;
     margin: 2em;
     color: #fff;
     
+    
 }
 
 .info-2{
-    width: 30em;
-    height: 30em;
+    width: 40em;
+    height: 40em;
     text-align: center;
     margin: 2em;
     color: #fff;
 }
 
 .info-3{
-    width: 30em;
-    height: 30em;
+    width: 40em;
+    height: 40em;
     text-align: center;
     margin: 2em;
-    color: #fff;
+    color: #ffff;
+    font-size: 1em;
 }
 
 .numeros{
-    font-size: 10em;
+    font-size: 15em;
     color: #fff;
+    opacity: .9;
 }
 
 .info-baixo-numeros{
@@ -401,11 +385,17 @@ li:nth-of-type(5):hover{
 video{
     width: 100%;
     height: 80%;
-    margin-top: -40em;
+    top: -78em;
     border-top: 5px solid #fff;
     position: relative;
+    z-index: -99;
+    
 
 
+}
+
+.info-mapa{
+    margin-top: -70em;
 }
 
 .title-section-mapa{
@@ -421,10 +411,121 @@ video{
 }
 
 iframe{
-    margin: 15.7%;
+    margin: 0 15.7% 0;
     margin-top: 8em;
 }
 
+.info-baixo-mapa{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2em 0 0 18.8em;
+    line-height: 1.4em;
+    position: absolute;
+}
 
+footer{
+    margin-top: 20em;
+    width: 100%;
+    height: 20em;
+    padding-top: 15em;
+    padding-bottom: 20em;
+    background-color: #fff;
+    border-top: 2px solid rgb(197, 197, 197);
+    position: absolute;
+    display: block;
+
+}
+
+.rodape ul{
+    position: relative;
+    top: 30em;
+
+
+
+
+    
+
+
+
+
+
+}
+
+.rodape li{
+    margin-top: 10em;
+    white-space: nowrap;
+    padding: 0;
+    margin-right: 3em;
+
+
+
+
+
+}
+
+.rodape li a{
+    color: #000;
+
+
+
+}
+
+.rodape ul li a:hover{
+    display: none;
+
+    
+}
+
+hr{
+    width: 60%;
+    margin-left: 23.8em;
+    top: 10em;
+    position: absolute;
+}
+
+.direitos{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 14em 0 0 47em;
+}
+
+.logo-prefeitura{
+    width: 12%;
+    margin: 5em;
+    margin-top: -25em;
+    position: absolute;
+}
+
+.logo-parque{
+    width: 12%;
+    margin: 25em;
+    margin-top: -23.8em;
+    position: absolute;
+}
+
+.social{
+    display: flex;
+    margin-left: 80em;
+    z-index: 99;
+          
+  }
+  
+  .social div{
+    padding: .3em;
+    font-size: 2.5em;
+    margin-top: -3em;
+  
+  }
+  
+  .social a{
+    color: rgb(141, 141, 141);
+  
+  }
+  
+  .social a:hover{
+    transform: scale(1.1);
+    transition: .4s;
+    color: #6d4dff;
+  
+  }
 
 
